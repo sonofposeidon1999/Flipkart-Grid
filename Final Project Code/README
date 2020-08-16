@@ -1,0 +1,15 @@
+Project Structure:
+	/templates: including all html files, based on base.html to extend
+	main.py: define all the routers and middlewares
+	/Converting to WAV: converts the given extensions to WAV
+	/PART1: Cleaning the Audio File
+	/PART2and3: Speaker Diarization and finding Primary Audio
+
+To Run the API: python main.py
+
+then visit  http://127.0.0.1:5000/ on Google Chrome to Run the Application
+
+Allowed Extensions : mp3,m4a,wav,ogg,mpeg,flac
+
+Primary Audio and text Location: /Final Result (Primary Audio and ASR text)/
+
